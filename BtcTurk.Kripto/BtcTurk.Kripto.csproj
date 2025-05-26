@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>BtcTurk.Kripto</Title>
+    <Authors>Mehmet Emin KARADAĞ</Authors>
+    <Description>BtcTurk kripto borsası için geliştirilmiş .NET kütüphanesidir.</Description>
+    <Copyright>Tüm hakları saklıdır.</Copyright>
+    <PackageProjectUrl>https://github.com/emin-karadag/BtcTurk.Kripto</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/emin-karadag/BtcTurk.Kripto</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>btcturk, kripto, bitcoin, crypto, exchange</PackageTags>
+    <PackageReleaseNotes>BtcTurk.Kripto</PackageReleaseNotes>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
